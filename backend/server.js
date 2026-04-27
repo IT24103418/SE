@@ -16,7 +16,8 @@ const app = express();
 app.use(cors({
   origin: [
     "http://localhost:5173",
-    "https://spectacular-cheesecake-3f0882.netlify.app"
+    "https://spectacular-cheesecake-3f0882.netlify.app",
+    "https://69eff0195cdefd3e45fa3652--spectacular-cheesecake-3f0882.netlify.app"
   ],
   credentials: true
 }));
